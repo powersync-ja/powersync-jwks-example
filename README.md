@@ -7,7 +7,7 @@ for any other environment.
 
 # Architecture
 
-A key-pair (public and private key) is generated. The public key is served on a public [JWKS](https://auth0.com/docs/secure/tokens/json-web-tokens/json-web-key-sets) URI, hosted on PowerSync. The private key is then used to generate JWTs for authenticated Supabase users and/or anonymous users. The PowerSync instance then validates these JWTs against the public key from the JWKS URI.
+A key-pair (public and private key) is generated. The public key is served on a public [JWKS](https://auth0.com/docs/secure/tokens/json-web-tokens/json-web-key-sets) URI. The private key is then used to generate JWTs for authenticated Supabase users and/or anonymous users. The PowerSync instance then validates these JWTs against the public key from the JWKS URI.
 
 # Usage
 
