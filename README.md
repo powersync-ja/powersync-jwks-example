@@ -59,8 +59,8 @@ The PowerSync Instance URL can be found under "Edit Instance" -> "General"
 
 Update the client application to use the `powersync-auth` or `powersync-auth-anonymous` function to generate the JWT.
 
-* Example usage of `powersync-auth`: https://github.com/journeyapps/powersync-supabase-flutter-demo/pull/3
-* Example usage of `powersync-auth-anonymous`: https://github.com/journeyapps/powersync-supabase-flutter-demo/pull/4
+* Example usage of `powersync-auth`: https://github.com/powersync-ja/powersync.dart/tree/master/demos/supabase-edge-function-auth
+* Example usage of `powersync-auth-anonymous`: https://github.com/powersync-ja/powersync.dart/tree/master/demos/supabase-anonymous-auth
 * Note that it's possible to use a mix of both methods. This would be done with a token parameter query. In the context of the above examples, this would be done using `token_parameters.user_id != 'anonymous'`. In the future we'll ideally change this to use a separate parameter for authenticated / anonymous queries.
 
 # Rotating keys
